@@ -538,8 +538,16 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.bottom-20 {
+  bottom: 5rem;
 }
 
 .bottom-5 {
@@ -552,6 +560,14 @@ video {
 
 .left-7 {
   left: 1.75rem;
+}
+
+.right-14 {
+  right: 3.5rem;
+}
+
+.right-16 {
+  right: 4rem;
 }
 
 .top-0 {
@@ -862,6 +878,10 @@ video {
   text-align: center;
 }
 
+.font-\[\'Montserrat\'\2c \'serif\'\] {
+  font-family: 'Montserrat','serif';
+}
+
 .font-\[\'Poppins\'\2c \'sans-serif\'\] {
   font-family: 'Poppins','sans-serif';
 }
@@ -948,6 +968,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .shadow-md {
